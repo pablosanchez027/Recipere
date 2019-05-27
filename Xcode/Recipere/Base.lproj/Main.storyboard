@@ -129,16 +129,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ngz-VA-nr7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="EGn-ez-WDh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ngz-VA-nr7" firstAttribute="top" secondItem="irA-g2-yxm" secondAttribute="top" id="222-yX-csd"/>
-                            <constraint firstAttribute="bottom" secondItem="ngz-VA-nr7" secondAttribute="bottom" id="3Wm-D5-fHF"/>
-                            <constraint firstItem="ngz-VA-nr7" firstAttribute="trailing" secondItem="4Ea-Kh-1tB" secondAttribute="trailing" id="7IK-rR-BUZ"/>
-                            <constraint firstItem="ngz-VA-nr7" firstAttribute="leading" secondItem="4Ea-Kh-1tB" secondAttribute="leading" id="jT1-li-0Qa"/>
+                            <constraint firstItem="EGn-ez-WDh" firstAttribute="top" secondItem="irA-g2-yxm" secondAttribute="top" id="KOn-Mx-UP2"/>
+                            <constraint firstItem="EGn-ez-WDh" firstAttribute="leading" secondItem="4Ea-Kh-1tB" secondAttribute="leading" id="VyF-fh-vsj"/>
+                            <constraint firstItem="EGn-ez-WDh" firstAttribute="trailing" secondItem="4Ea-Kh-1tB" secondAttribute="trailing" id="q8M-lz-5hv"/>
+                            <constraint firstAttribute="bottom" secondItem="EGn-ez-WDh" secondAttribute="bottom" id="qYz-td-4VK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Ea-Kh-1tB"/>
                     </view>
@@ -151,10 +151,9 @@
         <!--Recipere-->
         <scene sceneID="Vp7-oL-d6B">
             <objects>
-                <navigationController id="KV7-Qq-q22" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="KV7-Qq-q22" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Recipere" image="iconMenu" selectedImage="iconMenu" id="Kxz-aG-kE0"/>
-                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ce6-Lm-Xuu">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ce6-Lm-Xuu">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.82736045120000001" green="0.82750314469999997" blue="0.82735145089999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -174,16 +173,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="t53-wv-3ax">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="7Xd-GG-U6L">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="t53-wv-3ax" firstAttribute="trailing" secondItem="rHR-6D-TFx" secondAttribute="trailing" id="38o-4c-3fC"/>
-                            <constraint firstItem="t53-wv-3ax" firstAttribute="leading" secondItem="rHR-6D-TFx" secondAttribute="leading" id="FLa-CZ-exL"/>
-                            <constraint firstItem="t53-wv-3ax" firstAttribute="top" secondItem="GfT-Dm-qzK" secondAttribute="top" id="lsS-Qc-qBq"/>
-                            <constraint firstAttribute="bottom" secondItem="t53-wv-3ax" secondAttribute="bottom" id="wSF-zo-cDU"/>
+                            <constraint firstItem="7Xd-GG-U6L" firstAttribute="leading" secondItem="rHR-6D-TFx" secondAttribute="leading" id="LTZ-Wb-oXv"/>
+                            <constraint firstAttribute="bottom" secondItem="7Xd-GG-U6L" secondAttribute="bottom" id="MP2-ov-gW4"/>
+                            <constraint firstAttribute="trailing" secondItem="7Xd-GG-U6L" secondAttribute="trailing" id="Mdo-TW-UjV"/>
+                            <constraint firstItem="7Xd-GG-U6L" firstAttribute="top" secondItem="GfT-Dm-qzK" secondAttribute="top" id="V46-dl-KzY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rHR-6D-TFx"/>
                     </view>
@@ -196,10 +195,9 @@
         <!--Day-->
         <scene sceneID="8Nd-w3-oO0">
             <objects>
-                <navigationController id="Gyl-Qp-DAc" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="Gyl-Qp-DAc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Day" image="iconDay" selectedImage="iconDay" id="mU2-fL-KyH"/>
-                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yrO-gc-U81">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yrO-gc-U81">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.82736045120000001" green="0.82750314469999997" blue="0.82735145089999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,10 +214,9 @@
         <!--Profile-->
         <scene sceneID="uGT-eL-1qg">
             <objects>
-                <navigationController id="bCt-Oo-OrT" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="bCt-Oo-OrT" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="iconProfile" selectedImage="iconProfile" id="0kj-EG-RQT"/>
-                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4sf-YJ-ARH">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4sf-YJ-ARH">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.82736045120000001" green="0.82750314469999997" blue="0.82735145089999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -239,16 +236,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="QJj-i4-zxN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="S0F-26-qvz">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="QJj-i4-zxN" firstAttribute="leading" secondItem="PLY-wm-Owr" secondAttribute="leading" id="Oon-BR-Yvq"/>
-                            <constraint firstItem="QJj-i4-zxN" firstAttribute="top" secondItem="l1q-JV-8JX" secondAttribute="top" id="c0B-i3-xqX"/>
-                            <constraint firstAttribute="bottom" secondItem="QJj-i4-zxN" secondAttribute="bottom" id="kpU-en-7ec"/>
-                            <constraint firstItem="QJj-i4-zxN" firstAttribute="trailing" secondItem="PLY-wm-Owr" secondAttribute="trailing" id="vtg-5e-KDT"/>
+                            <constraint firstAttribute="bottom" secondItem="S0F-26-qvz" secondAttribute="bottom" id="9LE-qO-oxh"/>
+                            <constraint firstItem="S0F-26-qvz" firstAttribute="top" secondItem="l1q-JV-8JX" secondAttribute="top" id="ATv-1k-A6U"/>
+                            <constraint firstItem="S0F-26-qvz" firstAttribute="trailing" secondItem="PLY-wm-Owr" secondAttribute="trailing" id="OGr-mx-Z6o"/>
+                            <constraint firstItem="S0F-26-qvz" firstAttribute="leading" secondItem="PLY-wm-Owr" secondAttribute="leading" id="u04-Ct-6Zf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PLY-wm-Owr"/>
                     </view>
