@@ -9,6 +9,14 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -18,33 +26,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="PCd-O5-0M4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="PCd-O5-0M4">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecipereLogo" translatesAutoresizingMaskIntoConstraints="NO" id="BB8-CB-ydG">
-                                <rect key="frame" x="52" y="269" width="310" height="75"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="BB8-CB-ydG" secondAttribute="height" multiplier="62:15" id="xtY-vc-hgr"/>
-                                </constraints>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PpM-rV-62W">
-                                <rect key="frame" x="20" y="433" width="374" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" background="textfieldLogin" translatesAutoresizingMaskIntoConstraints="NO" id="PpM-rV-62W">
+                                <rect key="frame" x="25" y="435" width="364" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" adjustsFontSizeToFit="NO" minimumFontSize="17" background="textfieldLogin" translatesAutoresizingMaskIntoConstraints="NO" id="0tS-yl-Lug">
+                                <rect key="frame" x="25" y="503" width="364" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9N-dh-R9d">
+                                <rect key="frame" x="75" y="655" width="265" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="18"/>
+                                <state key="normal" title="Get Started" backgroundImage="buttonLogin">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RecipereTitle" translatesAutoresizingMaskIntoConstraints="NO" id="WyT-9r-HHF">
+                                <rect key="frame" x="75" y="204" width="264.5" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WyT-9r-HHF" secondAttribute="height" multiplier="15:8" id="tRp-T9-vkl"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="PCd-O5-0M4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Yc-b5-sf4"/>
-                            <constraint firstItem="BB8-CB-ydG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="CiU-Fi-ScY"/>
-                            <constraint firstItem="PCd-O5-0M4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NpQ-aD-lNr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BB8-CB-ydG" secondAttribute="trailing" constant="52" id="Z4a-Pl-N0a"/>
-                            <constraint firstItem="BB8-CB-ydG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="225" id="a1i-tM-sWj"/>
-                            <constraint firstItem="PCd-O5-0M4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dG0-tH-kvr"/>
-                            <constraint firstAttribute="bottom" secondItem="PCd-O5-0M4" secondAttribute="bottom" id="i1R-bb-Nky"/>
-                            <constraint firstItem="BB8-CB-ydG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zTo-b6-flK"/>
+                            <constraint firstItem="WyT-9r-HHF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8vM-yM-MXc"/>
+                            <constraint firstItem="WyT-9r-HHF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="n7d-YF-zbW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -56,6 +74,8 @@
     </scenes>
     <resources>
         <image name="Background" width="750" height="1624"/>
-        <image name="RecipereLogo" width="529" height="121.5"/>
+        <image name="RecipereTitle" width="264.5" height="61"/>
+        <image name="buttonLogin" width="264.5" height="40"/>
+        <image name="textfieldLogin" width="264.5" height="36"/>
     </resources>
 </document>
