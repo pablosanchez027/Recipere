@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 64aa8b62e1db4c89eb5b8a80d2dae40b43ad4dfb
+PODS:
+  - SSCalendarControl (1.0.0)
+
+DEPENDENCIES:
+  - SSCalendarControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SSCalendarControl
+
+SPEC CHECKSUMS:
+  SSCalendarControl: 00508ba88b5db6d791c95c1dbe0700fe8e4b313b
+
+PODFILE CHECKSUM: d0efb54985e07f6837a90380acd6ea9d4b65c60c
 
 COCOAPODS: 1.7.0
