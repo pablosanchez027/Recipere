@@ -1,9 +1,11 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '12.2'
+ platform :ios, '12.2'
 
 target 'Recipere' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+
+ pod 'SSCalendarControl'
 
   # Pods for Recipere
 
@@ -16,8 +18,5 @@ target 'Recipere' do
     inherit! :search_paths
     # Pods for testing
   end
-
-use_frameworks!
- pod 'SSCalendarControl'
 
 end
