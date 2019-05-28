@@ -18,8 +18,29 @@
 		3D193719229C8ADD005B9DD1 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D19370F229C8ADD005B9DD1 /* Rubik-Regular.ttf */; };
 		3D19371A229C8ADD005B9DD1 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D193710229C8ADD005B9DD1 /* Rubik-BoldItalic.ttf */; };
 		3D7469FA229CBE9F004CAF0E /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7469F9229CBE9F004CAF0E /* MainMenuViewController.swift */; };
-		3D7469FB229CC242004CAF0E /* SSCalendar.app in Resources */ = {isa = PBXBuildFile; fileRef = 3D7469F8229CB8B9004CAF0E /* SSCalendar.app */; };
-		3D7469FE229CC252004CAF0E /* SSCalendar.app in Resources */ = {isa = PBXBuildFile; fileRef = 3D7469F8229CB8B9004CAF0E /* SSCalendar.app */; };
+		3D746A2F229CC5CF004CAF0E /* .tailor.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A05229CC5CF004CAF0E /* .tailor.yml */; };
+		3D746A30229CC5CF004CAF0E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A08229CC5CF004CAF0E /* MainViewController.swift */; };
+		3D746A31229CC5CF004CAF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A09229CC5CF004CAF0E /* LaunchScreen.storyboard */; };
+		3D746A32229CC5CF004CAF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A0B229CC5CF004CAF0E /* Main.storyboard */; };
+		3D746A33229CC5CF004CAF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A0D229CC5CF004CAF0E /* Assets.xcassets */; };
+		3D746A34229CC5CF004CAF0E /* DateExtensions+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A10229CC5CF004CAF0E /* DateExtensions+Helper.swift */; };
+		3D746A35229CC5CF004CAF0E /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A11229CC5CF004CAF0E /* UIView+AutoLayout.swift */; };
+		3D746A36229CC5CF004CAF0E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A12229CC5CF004CAF0E /* UIViewExtension.swift */; };
+		3D746A37229CC5CF004CAF0E /* SSNibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A13229CC5CF004CAF0E /* SSNibLoadable.swift */; };
+		3D746A38229CC5CF004CAF0E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A15229CC5CF004CAF0E /* Constants.swift */; };
+		3D746A39229CC5CF004CAF0E /* SSDaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A17229CC5CF004CAF0E /* SSDaysCell.xib */; };
+		3D746A3A229CC5CF004CAF0E /* SSDaysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A18229CC5CF004CAF0E /* SSDaysCell.swift */; };
+		3D746A3B229CC5CF004CAF0E /* SSEmptyDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A1A229CC5CF004CAF0E /* SSEmptyDayCell.xib */; };
+		3D746A3C229CC5CF004CAF0E /* SSEmptyDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A1B229CC5CF004CAF0E /* SSEmptyDayCell.swift */; };
+		3D746A3D229CC5CF004CAF0E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A1D229CC5CF004CAF0E /* Models.swift */; };
+		3D746A3E229CC5CF004CAF0E /* SSHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A1F229CC5CF004CAF0E /* SSHeaderView.swift */; };
+		3D746A3F229CC5CF004CAF0E /* SSHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A20229CC5CF004CAF0E /* SSHeaderView.xib */; };
+		3D746A40229CC5CF004CAF0E /* SSMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A22229CC5CF004CAF0E /* SSMonthCell.swift */; };
+		3D746A41229CC5CF004CAF0E /* SSMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A23229CC5CF004CAF0E /* SSMonthCell.xib */; };
+		3D746A42229CC5CF004CAF0E /* SSCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A25229CC5CF004CAF0E /* SSCalendarView.xib */; };
+		3D746A43229CC5CF004CAF0E /* SSCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A26229CC5CF004CAF0E /* SSCalendarView.swift */; };
+		3D746A44229CC5CF004CAF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D746A27229CC5CF004CAF0E /* AppDelegate.swift */; };
+		3D746A45229CC5CF004CAF0E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D746A28229CC5CF004CAF0E /* Info.plist */; };
 		3D895E83229C740000752762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D895E82229C740000752762 /* AppDelegate.swift */; };
 		3D895E85229C740000752762 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D895E84229C740000752762 /* LoginViewController.swift */; };
 		3D895E88229C740000752762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D895E86229C740000752762 /* Main.storyboard */; };
@@ -30,25 +51,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D7469F7229CB8B9004CAF0E /* PBXContainerItemProxy */ = {
+		3D746A2D229CC5CF004CAF0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3D7469F3229CB8B8004CAF0E /* SSCalendar.xcodeproj */;
+			containerPortal = 3D746A29229CC5CF004CAF0E /* SSCalendar.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 73FCF2BA227C4E30002625FD;
-			remoteInfo = SSCalendar;
-		};
-		3D7469FC229CC242004CAF0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D7469F3229CB8B8004CAF0E /* SSCalendar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 73FCF2B9227C4E30002625FD;
-			remoteInfo = SSCalendar;
-		};
-		3D7469FF229CC252004CAF0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D7469F3229CB8B8004CAF0E /* SSCalendar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 73FCF2B9227C4E30002625FD;
 			remoteInfo = SSCalendar;
 		};
 		3D895E94229C740300752762 /* PBXContainerItemProxy */ = {
@@ -78,8 +85,31 @@
 		3D19370E229C8ADD005B9DD1 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
 		3D19370F229C8ADD005B9DD1 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		3D193710229C8ADD005B9DD1 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
-		3D7469F3229CB8B8004CAF0E /* SSCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSCalendar.xcodeproj; path = "../../../../Downloads/SSCalendarControl-master/SSCalendar/SSCalendar.xcodeproj"; sourceTree = "<group>"; };
 		3D7469F9229CBE9F004CAF0E /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		3D746A05229CC5CF004CAF0E /* .tailor.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .tailor.yml; sourceTree = "<group>"; };
+		3D746A08229CC5CF004CAF0E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3D746A0A229CC5CF004CAF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D746A0C229CC5CF004CAF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D746A0D229CC5CF004CAF0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D746A10229CC5CF004CAF0E /* DateExtensions+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateExtensions+Helper.swift"; sourceTree = "<group>"; };
+		3D746A11229CC5CF004CAF0E /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		3D746A12229CC5CF004CAF0E /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3D746A13229CC5CF004CAF0E /* SSNibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSNibLoadable.swift; sourceTree = "<group>"; };
+		3D746A15229CC5CF004CAF0E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D746A17229CC5CF004CAF0E /* SSDaysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSDaysCell.xib; sourceTree = "<group>"; };
+		3D746A18229CC5CF004CAF0E /* SSDaysCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDaysCell.swift; sourceTree = "<group>"; };
+		3D746A1A229CC5CF004CAF0E /* SSEmptyDayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSEmptyDayCell.xib; sourceTree = "<group>"; };
+		3D746A1B229CC5CF004CAF0E /* SSEmptyDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSEmptyDayCell.swift; sourceTree = "<group>"; };
+		3D746A1D229CC5CF004CAF0E /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3D746A1F229CC5CF004CAF0E /* SSHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHeaderView.swift; sourceTree = "<group>"; };
+		3D746A20229CC5CF004CAF0E /* SSHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSHeaderView.xib; sourceTree = "<group>"; };
+		3D746A22229CC5CF004CAF0E /* SSMonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSMonthCell.swift; sourceTree = "<group>"; };
+		3D746A23229CC5CF004CAF0E /* SSMonthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSMonthCell.xib; sourceTree = "<group>"; };
+		3D746A25229CC5CF004CAF0E /* SSCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSCalendarView.xib; sourceTree = "<group>"; };
+		3D746A26229CC5CF004CAF0E /* SSCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSCalendarView.swift; sourceTree = "<group>"; };
+		3D746A27229CC5CF004CAF0E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D746A28229CC5CF004CAF0E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D746A29229CC5CF004CAF0E /* SSCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SSCalendar.xcodeproj; sourceTree = "<group>"; };
 		3D895E7F229C740000752762 /* Recipere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D895E82229C740000752762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D895E84229C740000752762 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -138,10 +168,129 @@
 			path = ../../Assets/Rubrik;
 			sourceTree = "<group>";
 		};
-		3D7469F4229CB8B8004CAF0E /* Products */ = {
+		3D746A04229CC5CF004CAF0E /* SSCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				3D7469F8229CB8B9004CAF0E /* SSCalendar.app */,
+				3D746A05229CC5CF004CAF0E /* .tailor.yml */,
+				3D746A06229CC5CF004CAF0E /* SSCalendar */,
+				3D746A29229CC5CF004CAF0E /* SSCalendar.xcodeproj */,
+			);
+			path = SSCalendar;
+			sourceTree = "<group>";
+		};
+		3D746A06229CC5CF004CAF0E /* SSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A07229CC5CF004CAF0E /* Example */,
+				3D746A0D229CC5CF004CAF0E /* Assets.xcassets */,
+				3D746A0E229CC5CF004CAF0E /* SSCalendar */,
+				3D746A27229CC5CF004CAF0E /* AppDelegate.swift */,
+				3D746A28229CC5CF004CAF0E /* Info.plist */,
+			);
+			path = SSCalendar;
+			sourceTree = "<group>";
+		};
+		3D746A07229CC5CF004CAF0E /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A08229CC5CF004CAF0E /* MainViewController.swift */,
+				3D746A09229CC5CF004CAF0E /* LaunchScreen.storyboard */,
+				3D746A0B229CC5CF004CAF0E /* Main.storyboard */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		3D746A0E229CC5CF004CAF0E /* SSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A0F229CC5CF004CAF0E /* Extensions & Helper */,
+				3D746A14229CC5CF004CAF0E /* Constants */,
+				3D746A16229CC5CF004CAF0E /* DaysCell */,
+				3D746A1C229CC5CF004CAF0E /* Models */,
+				3D746A1E229CC5CF004CAF0E /* HeaderView */,
+				3D746A21229CC5CF004CAF0E /* MonthCell */,
+				3D746A24229CC5CF004CAF0E /* CalenderView */,
+			);
+			path = SSCalendar;
+			sourceTree = "<group>";
+		};
+		3D746A0F229CC5CF004CAF0E /* Extensions & Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A10229CC5CF004CAF0E /* DateExtensions+Helper.swift */,
+				3D746A11229CC5CF004CAF0E /* UIView+AutoLayout.swift */,
+				3D746A12229CC5CF004CAF0E /* UIViewExtension.swift */,
+				3D746A13229CC5CF004CAF0E /* SSNibLoadable.swift */,
+			);
+			path = "Extensions & Helper";
+			sourceTree = "<group>";
+		};
+		3D746A14229CC5CF004CAF0E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A15229CC5CF004CAF0E /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3D746A16229CC5CF004CAF0E /* DaysCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A17229CC5CF004CAF0E /* SSDaysCell.xib */,
+				3D746A18229CC5CF004CAF0E /* SSDaysCell.swift */,
+				3D746A19229CC5CF004CAF0E /* EmptyDayCell */,
+			);
+			path = DaysCell;
+			sourceTree = "<group>";
+		};
+		3D746A19229CC5CF004CAF0E /* EmptyDayCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A1A229CC5CF004CAF0E /* SSEmptyDayCell.xib */,
+				3D746A1B229CC5CF004CAF0E /* SSEmptyDayCell.swift */,
+			);
+			path = EmptyDayCell;
+			sourceTree = "<group>";
+		};
+		3D746A1C229CC5CF004CAF0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A1D229CC5CF004CAF0E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D746A1E229CC5CF004CAF0E /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A1F229CC5CF004CAF0E /* SSHeaderView.swift */,
+				3D746A20229CC5CF004CAF0E /* SSHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		3D746A21229CC5CF004CAF0E /* MonthCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A22229CC5CF004CAF0E /* SSMonthCell.swift */,
+				3D746A23229CC5CF004CAF0E /* SSMonthCell.xib */,
+			);
+			path = MonthCell;
+			sourceTree = "<group>";
+		};
+		3D746A24229CC5CF004CAF0E /* CalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A25229CC5CF004CAF0E /* SSCalendarView.xib */,
+				3D746A26229CC5CF004CAF0E /* SSCalendarView.swift */,
+			);
+			path = CalenderView;
+			sourceTree = "<group>";
+		};
+		3D746A2A229CC5CF004CAF0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D746A2E229CC5CF004CAF0E /* SSCalendar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,7 +375,7 @@
 		3DEF3A72229C7674007DEE64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3D7469F3229CB8B8004CAF0E /* SSCalendar.xcodeproj */,
+				3D746A04229CC5CF004CAF0E /* SSCalendar */,
 				3D193706229C8ADD005B9DD1 /* Rubrik */,
 				3D895E89229C740300752762 /* Assets.xcassets */,
 			);
@@ -270,8 +419,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3D7469FD229CC242004CAF0E /* PBXTargetDependency */,
-				3D746A00229CC252004CAF0E /* PBXTargetDependency */,
 			);
 			name = Recipere;
 			productName = Recipere;
@@ -350,8 +497,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3D7469F4229CB8B8004CAF0E /* Products */;
-					ProjectRef = 3D7469F3229CB8B8004CAF0E /* SSCalendar.xcodeproj */;
+					ProductGroup = 3D746A2A229CC5CF004CAF0E /* Products */;
+					ProjectRef = 3D746A29229CC5CF004CAF0E /* SSCalendar.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -364,11 +511,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		3D7469F8229CB8B9004CAF0E /* SSCalendar.app */ = {
+		3D746A2E229CC5CF004CAF0E /* SSCalendar.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = SSCalendar.app;
-			remoteRef = 3D7469F7229CB8B9004CAF0E /* PBXContainerItemProxy */;
+			remoteRef = 3D746A2D229CC5CF004CAF0E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -380,15 +527,23 @@
 			files = (
 				3D895E8D229C740300752762 /* LaunchScreen.storyboard in Resources */,
 				3D193719229C8ADD005B9DD1 /* Rubik-Regular.ttf in Resources */,
+				3D746A3B229CC5CF004CAF0E /* SSEmptyDayCell.xib in Resources */,
 				3D193717229C8ADD005B9DD1 /* Rubik-LightItalic.ttf in Resources */,
+				3D746A31229CC5CF004CAF0E /* LaunchScreen.storyboard in Resources */,
+				3D746A41229CC5CF004CAF0E /* SSMonthCell.xib in Resources */,
 				3D193713229C8ADD005B9DD1 /* Rubik-Light.ttf in Resources */,
+				3D746A2F229CC5CF004CAF0E /* .tailor.yml in Resources */,
+				3D746A33229CC5CF004CAF0E /* Assets.xcassets in Resources */,
 				3D193715229C8ADD005B9DD1 /* Rubik-Black.ttf in Resources */,
+				3D746A45229CC5CF004CAF0E /* Info.plist in Resources */,
 				3D895E8A229C740300752762 /* Assets.xcassets in Resources */,
 				3D193718229C8ADD005B9DD1 /* Rubik-BlackItalic.ttf in Resources */,
-				3D7469FE229CC252004CAF0E /* SSCalendar.app in Resources */,
+				3D746A39229CC5CF004CAF0E /* SSDaysCell.xib in Resources */,
 				3D895E88229C740000752762 /* Main.storyboard in Resources */,
+				3D746A42229CC5CF004CAF0E /* SSCalendarView.xib in Resources */,
 				3D193716229C8ADD005B9DD1 /* Rubik-Italic.ttf in Resources */,
-				3D7469FB229CC242004CAF0E /* SSCalendar.app in Resources */,
+				3D746A32229CC5CF004CAF0E /* Main.storyboard in Resources */,
+				3D746A3F229CC5CF004CAF0E /* SSHeaderView.xib in Resources */,
 				3D193711229C8ADD005B9DD1 /* Rubik-MediumItalic.ttf in Resources */,
 				3D193712229C8ADD005B9DD1 /* Rubik-Bold.ttf in Resources */,
 				3D19371A229C8ADD005B9DD1 /* Rubik-BoldItalic.ttf in Resources */,
@@ -417,9 +572,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D746A40229CC5CF004CAF0E /* SSMonthCell.swift in Sources */,
+				3D746A3C229CC5CF004CAF0E /* SSEmptyDayCell.swift in Sources */,
 				3D7469FA229CBE9F004CAF0E /* MainMenuViewController.swift in Sources */,
+				3D746A3E229CC5CF004CAF0E /* SSHeaderView.swift in Sources */,
+				3D746A37229CC5CF004CAF0E /* SSNibLoadable.swift in Sources */,
+				3D746A3D229CC5CF004CAF0E /* Models.swift in Sources */,
+				3D746A3A229CC5CF004CAF0E /* SSDaysCell.swift in Sources */,
+				3D746A35229CC5CF004CAF0E /* UIView+AutoLayout.swift in Sources */,
+				3D746A44229CC5CF004CAF0E /* AppDelegate.swift in Sources */,
 				3D895E85229C740000752762 /* LoginViewController.swift in Sources */,
 				3D895E83229C740000752762 /* AppDelegate.swift in Sources */,
+				3D746A36229CC5CF004CAF0E /* UIViewExtension.swift in Sources */,
+				3D746A30229CC5CF004CAF0E /* MainViewController.swift in Sources */,
+				3D746A34229CC5CF004CAF0E /* DateExtensions+Helper.swift in Sources */,
+				3D746A43229CC5CF004CAF0E /* SSCalendarView.swift in Sources */,
+				3D746A38229CC5CF004CAF0E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,16 +610,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D7469FD229CC242004CAF0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSCalendar;
-			targetProxy = 3D7469FC229CC242004CAF0E /* PBXContainerItemProxy */;
-		};
-		3D746A00229CC252004CAF0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSCalendar;
-			targetProxy = 3D7469FF229CC252004CAF0E /* PBXContainerItemProxy */;
-		};
 		3D895E95229C740300752762 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3D895E7E229C740000752762 /* Recipere */;
@@ -465,6 +623,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3D746A09229CC5CF004CAF0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D746A0A229CC5CF004CAF0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D746A0B229CC5CF004CAF0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D746A0C229CC5CF004CAF0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		3D895E86229C740000752762 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
