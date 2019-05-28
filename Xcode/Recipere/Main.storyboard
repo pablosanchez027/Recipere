@@ -121,10 +121,10 @@
             </objects>
             <point key="canvasLocation" x="754" y="19"/>
         </scene>
-        <!--View Controller-->
+        <!--Dia Detalle View Controller-->
         <scene sceneID="vBC-Wk-Svw">
             <objects>
-                <viewController id="N5h-9F-wI0" sceneMemberID="viewController">
+                <viewController id="N5h-9F-wI0" customClass="DiaDetalleViewController" customModule="Recipere" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="irA-g2-yxm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,17 +132,127 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="EGn-ez-WDh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bBk-D9-Sl8">
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellMedicina" rowHeight="255" id="PFG-Xi-LEa" customClass="celdaMedicina" customModule="Recipere" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="255"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PFG-Xi-LEa" id="hV2-vT-EKd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="254.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lKw-eg-NzI">
+                                                    <rect key="frame" x="270" y="11" width="124" height="124"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="124" id="seI-Jm-Fej"/>
+                                                        <constraint firstAttribute="height" constant="124" id="ywk-wP-6Sz"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicina Nombre Quimico" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jg-8V-eky">
+                                                    <rect key="frame" x="20" y="11" width="242" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="7GH-xM-aKx"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="27"/>
+                                                    <color key="textColor" red="0.0" green="0.50980392156862742" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dosis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaB-Fu-7c3">
+                                                    <rect key="frame" x="20" y="114" width="53" height="24"/>
+                                                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.50980392156862742" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hora" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ef8-Wj-q4n">
+                                                    <rect key="frame" x="20" y="157" width="47" height="24"/>
+                                                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.50980392156862742" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Día" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvb-XB-STq">
+                                                    <rect key="frame" x="20" y="200" width="31" height="24"/>
+                                                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.50980392156862742" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dosis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeY-oL-1vb">
+                                                    <rect key="frame" x="81" y="115" width="48" height="23"/>
+                                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="19"/>
+                                                    <color key="textColor" red="0.035294117647058823" green="0.6588235294117647" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hora" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQu-PY-Vy7">
+                                                    <rect key="frame" x="81" y="158" width="42" height="23"/>
+                                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="19"/>
+                                                    <color key="textColor" red="0.035294117649999998" green="0.6588235294" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Día" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ds-27-UT7">
+                                                    <rect key="frame" x="81" y="200" width="29" height="23"/>
+                                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="19"/>
+                                                    <color key="textColor" red="0.035294117649999998" green="0.6588235294" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gvb-XB-STq" firstAttribute="top" secondItem="Ef8-Wj-q4n" secondAttribute="bottom" constant="19" id="2Zk-aB-hct"/>
+                                                <constraint firstItem="Ef8-Wj-q4n" firstAttribute="top" secondItem="yaB-Fu-7c3" secondAttribute="bottom" constant="19" id="3MS-4s-aMI"/>
+                                                <constraint firstItem="yaB-Fu-7c3" firstAttribute="top" secondItem="7Jg-8V-eky" secondAttribute="bottom" constant="23" id="3R3-NN-26h"/>
+                                                <constraint firstItem="QeY-oL-1vb" firstAttribute="leading" secondItem="yaB-Fu-7c3" secondAttribute="trailing" constant="8" id="5XY-QD-2cK"/>
+                                                <constraint firstItem="gvb-XB-STq" firstAttribute="leading" secondItem="hV2-vT-EKd" secondAttribute="leadingMargin" id="8UJ-Cx-hY2"/>
+                                                <constraint firstItem="7Jg-8V-eky" firstAttribute="top" secondItem="hV2-vT-EKd" secondAttribute="topMargin" id="Jyw-nu-o3s"/>
+                                                <constraint firstItem="lKw-eg-NzI" firstAttribute="top" secondItem="hV2-vT-EKd" secondAttribute="topMargin" id="N6S-n7-PhB"/>
+                                                <constraint firstItem="Ef8-Wj-q4n" firstAttribute="leading" secondItem="hV2-vT-EKd" secondAttribute="leadingMargin" id="VCH-Zt-WAQ"/>
+                                                <constraint firstItem="7Jg-8V-eky" firstAttribute="leading" secondItem="hV2-vT-EKd" secondAttribute="leadingMargin" id="Wb3-Vu-Hxf"/>
+                                                <constraint firstItem="xQu-PY-Vy7" firstAttribute="top" secondItem="QeY-oL-1vb" secondAttribute="bottom" constant="20" id="XTC-cc-E1J"/>
+                                                <constraint firstItem="lKw-eg-NzI" firstAttribute="trailing" secondItem="hV2-vT-EKd" secondAttribute="trailingMargin" id="ceO-Xh-etR"/>
+                                                <constraint firstItem="9Ds-27-UT7" firstAttribute="leading" secondItem="gvb-XB-STq" secondAttribute="trailing" constant="30" id="fNQ-2x-xZt"/>
+                                                <constraint firstItem="9Ds-27-UT7" firstAttribute="top" secondItem="xQu-PY-Vy7" secondAttribute="bottom" constant="19" id="hIc-bx-tX7"/>
+                                                <constraint firstItem="QeY-oL-1vb" firstAttribute="top" secondItem="7Jg-8V-eky" secondAttribute="bottom" constant="24" id="ldI-ja-5Ml"/>
+                                                <constraint firstItem="yaB-Fu-7c3" firstAttribute="leading" secondItem="hV2-vT-EKd" secondAttribute="leadingMargin" id="n7G-6s-Ss4"/>
+                                                <constraint firstItem="xQu-PY-Vy7" firstAttribute="leading" secondItem="Ef8-Wj-q4n" secondAttribute="trailing" constant="14" id="vN9-lP-BCa"/>
+                                                <constraint firstItem="lKw-eg-NzI" firstAttribute="leading" secondItem="7Jg-8V-eky" secondAttribute="trailing" constant="8" id="xZ2-yf-Clp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="imgMedicinaLogo" destination="lKw-eg-NzI" id="o1i-Jb-M2u"/>
+                                            <outlet property="lblMedicinaDia" destination="9Ds-27-UT7" id="ZHp-eU-NMx"/>
+                                            <outlet property="lblMedicinaDosis" destination="QeY-oL-1vb" id="6hj-5w-DB4"/>
+                                            <outlet property="lblMedicinaHora" destination="xQu-PY-Vy7" id="7FJ-MZ-dtO"/>
+                                            <outlet property="lblMedicinaNombre" destination="7Jg-8V-eky" id="7Pu-G7-XKK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iW-6N-GmI">
+                                <rect key="frame" x="130.5" y="78" width="153" height="30"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="bBk-D9-Sl8" firstAttribute="top" secondItem="6iW-6N-GmI" secondAttribute="bottom" constant="36" id="6zY-VR-Bfa"/>
+                            <constraint firstItem="bBk-D9-Sl8" firstAttribute="trailing" secondItem="4Ea-Kh-1tB" secondAttribute="trailing" id="EVK-1l-WHE"/>
+                            <constraint firstItem="bBk-D9-Sl8" firstAttribute="leading" secondItem="4Ea-Kh-1tB" secondAttribute="leading" id="I9E-aK-OWl"/>
                             <constraint firstItem="EGn-ez-WDh" firstAttribute="top" secondItem="irA-g2-yxm" secondAttribute="top" id="KOn-Mx-UP2"/>
+                            <constraint firstItem="bBk-D9-Sl8" firstAttribute="bottom" secondItem="4Ea-Kh-1tB" secondAttribute="bottom" id="PbS-O5-aYc"/>
                             <constraint firstItem="EGn-ez-WDh" firstAttribute="leading" secondItem="4Ea-Kh-1tB" secondAttribute="leading" id="VyF-fh-vsj"/>
+                            <constraint firstItem="6iW-6N-GmI" firstAttribute="top" secondItem="4Ea-Kh-1tB" secondAttribute="top" constant="34" id="aU9-ry-SE5"/>
+                            <constraint firstItem="6iW-6N-GmI" firstAttribute="centerX" secondItem="irA-g2-yxm" secondAttribute="centerX" id="cfx-St-vxd"/>
                             <constraint firstItem="EGn-ez-WDh" firstAttribute="trailing" secondItem="4Ea-Kh-1tB" secondAttribute="trailing" id="q8M-lz-5hv"/>
                             <constraint firstAttribute="bottom" secondItem="EGn-ez-WDh" secondAttribute="bottom" id="qYz-td-4VK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Ea-Kh-1tB"/>
                     </view>
                     <navigationItem key="navigationItem" id="SIc-A3-ttZ"/>
+                    <connections>
+                        <outlet property="tbMedicinas" destination="bBk-D9-Sl8" id="drK-I0-gK5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugM-2f-nFy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
