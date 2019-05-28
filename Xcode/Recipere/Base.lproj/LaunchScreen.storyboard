@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -49,6 +48,6 @@
     </scenes>
     <resources>
         <image name="Background" width="750" height="1624"/>
-        <image name="Icon" width="350" height="263"/>
+        <image name="Icon" width="175" height="131.5"/>
     </resources>
 </document>

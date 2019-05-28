@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import SSCalendarView
+import SSCalendarControl
 
 class MainMenuViewController: UIViewController {
     
